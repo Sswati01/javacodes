@@ -1,0 +1,18 @@
+//write a java program to calculate the average of three numbers
+package Functions;
+import java.util.*;
+public class average {
+    public static int avg(int a,int b,int c){
+      int average=(a+b+c)/3;
+      return average;
+    }
+    public static void main (String args[]){
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int c=s.nextInt();
+    int average=avg(a,b,c);
+    System.out.println(average);
+    }
+    
+}
